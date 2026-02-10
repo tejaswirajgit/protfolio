@@ -19,8 +19,9 @@ node_modules/
 .DS_Store
 Thumbs.db
 
-# Notebooks HTML output (if you don't want to track generated files)
-notebooks/
+# Ignore raw notebooks, but keep HTML outputs
+notebooks/*.ipynb
+
 
 # Logs
 *.log
