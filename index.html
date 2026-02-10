@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejaswi Raj | ML Research Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">TR</a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#publications" class="nav-link">Publications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Tejaswi Raj</h1>
+                <h2 class="hero-title">ML Research Engineer</h2>
+                <p class="hero-description">
+                    I build intelligent systems that bridge the gap between data and actionable insights.
+                    Passionate about leveraging Machine Learning and Deep Learning to solve real-world problems
+                    in healthcare, geospatial analysis, and beyond.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+                <div class="hero-social">
+                    <a href="mailto:tejaswirajmgr@gmail.com" class="social-link" aria-label="Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/tejaswi-raj" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                    </a>
+                    <a href="https://github.com/tejaswiraj" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                    </a>
+                    <a href="tel:+919473219473" class="social-link" aria-label="Phone">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-decoration">
+                    <div class="code-block">
+                        <span class="code-keyword">class</span> <span class="code-class">MLEngineer</span>:
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">def</span> <span class="code-function">__init__</span>(<span class="code-param">self</span>):
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-param">self</span>.name = <span class="code-string">"Tejaswi Raj"</span>
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-param">self</span>.skills = [<span class="code-string">"ML"</span>, <span class="code-string">"DL"</span>, <span class="code-string">"CV"</span>]
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-param">self</span>.passion = <span class="code-string">"∞"</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a Machine Learning Research Engineer with hands-on experience at premier research institutions 
+                        including <span class="highlight">DRDO</span> and <span class="highlight">IIT Mandi</span>. 
+                        My work focuses on developing AI solutions for critical applications in healthcare, 
+                        geospatial analysis, and brain-computer interfaces.
+                    </p>
+                    <p>
+                        Currently pursuing my B.E. in Computer Science Engineering at Chandigarh University, 
+                        I've published research in international conferences and developed models achieving 
+                        up to 99% accuracy in disease detection and classification tasks.
+                    </p>
+                    <div class="skills-container">
+                        <h3>Technical Arsenal</h3>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h4>Languages & Frameworks</h4>
+                                <ul class="skill-list">
+                                    <li>Python</li>
+                                    <li>TensorFlow</li>
+                                    <li>PyTorch</li>
+                                    <li>scikit-learn</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h4>ML/DL Architectures</h4>
+                                <ul class="skill-list">
+                                    <li>U-Net</li>
+                                    <li>AlexNet</li>
+                                    <li>SegNet</li>
+                                    <li>CNN</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Tools & Platforms</h4>
+                                <ul class="skill-list">
+                                    <li>AWS</li>
+                                    <li>Git/GitHub</li>
+                                    <li>Linux</li>
+                                    <li>MATLAB</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Core Competencies</h4>
+                                <ul class="skill-list">
+                                    <li>Computer Vision</li>
+                                    <li>NLP</li>
+                                    <li>Data Analysis</li>
+                                    <li>Signal Processing</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="experience-timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">Aug 2024 — Jan 2025</span>
+                            <span class="timeline-duration">6 Months</span>
+                        </div>
+                        <h3 class="timeline-title">ML Research Intern</h3>
+                        <h4 class="timeline-company">Defence Geoinformatics Research EST. (DRDO), Chandigarh</h4>
+                        <p class="timeline-description">
+                            Developed Deep Learning models for landslide detection using multispectral Sentinel-2 data, 
+                            achieving a 73% F1-score. Enhanced performance through implementation of U-Net, AlexNet, 
+                            and SegNet architectures for semantic segmentation tasks.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">U-Net</span>
+                            <span class="tag">AlexNet</span>
+                            <span class="tag">SegNet</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">Feb 2024 — Jul 2024</span>
+                            <span class="timeline-duration">6 Months</span>
+                        </div>
+                        <h3 class="timeline-title">ML Research Intern</h3>
+                        <h4 class="timeline-company">Indian Institute of Technology Mandi</h4>
+                        <p class="timeline-description">
+                            Applied Machine Learning and Deep Learning techniques to Electroencephalogram (EEG) data 
+                            for measuring electrical activity in the brain. Enhanced algorithms for precise information 
+                            extraction and signal processing from neural data.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">PyTorch</span>
+                            <span class="tag">scikit-learn</span>
+                            <span class="tag">MATLAB</span>
+                            <span class="tag">SciPy</span>
+                            <span class="tag">Signal Processing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card featured" data-aos="fade-up">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-label">Featured Project</span>
+                        <h3 class="project-title">Cardiovascular Disease Prediction & Prevention</h3>
+                        <p class="project-description">
+                            Developed an AI system that accurately predicts Cardiovascular disease in patients 
+                            by analyzing medical reports and daily routines using ML algorithms, achieving 
+                            <span class="highlight">94% accuracy</span>.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Healthcare AI</span>
+                            <span class="tag">Prediction Model</span>
+                        </div>
+                        <a href="notebooks/ML-Based Cardiovascular Disease Prediction & Prevention Framework.html" class="project-link" target="_blank">View Notebook →</a>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/></svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Plant Leaf Disease Detection</h3>
+                        <p class="project-description">
+                            Created an AI model for plant disease classification using CNN algorithms across 
+                            11 distinct plant species, achieving <span class="highlight">99% accuracy</span>.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Deep Learning</span>
+                            <span class="tag">CNN</span>
+                            <span class="tag">Computer Vision</span>
+                        </div>
+                        <a href="notebooks/Plant Leaf Disease Detection.html" class="project-link" target="_blank">View Notebook →</a>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Coronary Artery Disease Feature Selection</h3>
+                        <p class="project-description">
+                            Engineered an AI model for precise feature selection of Coronary Artery diseases 
+                            using Logistic and MLP approaches, achieving <span class="highlight">90% accuracy</span>.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Feature Engineering</span>
+                            <span class="tag">MLP</span>
+                            <span class="tag">Logistic Regression</span>
+                        </div>
+                        <a href="notebooks/coronary-artery-disease.html" class="project-link" target="_blank">View Notebook →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="publications" id="publications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Publications</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="publications-list">
+                <div class="publication-card" data-aos="fade-up">
+                    <div class="publication-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+                    </div>
+                    <div class="publication-content">
+                        <h3>Cardiovascular Disease Prediction and Prevention: Exploring Novel Techniques and Applications Using Machine Learning</h3>
+                        <p class="publication-venue">12th International Conference 2023</p>
+                    </div>
+                </div>
+                <div class="publication-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="publication-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+                    </div>
+                    <div class="publication-content">
+                        <h3>Personality Analysis using Graphology and Image Processing Techniques</h3>
+                        <p class="publication-venue">1st International Conference ICDCC-2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">05</span>
+                <h2 class="section-title">Certifications</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="certifications-grid">
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>IBM Introduction to Machine Learning</h3>
+                    <p>IBM</p>
+                </div>
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Data Visualization with Tableau</h3>
+                    <p>Tableau</p>
+                </div>
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Natural Language Processing with Classification Vector Spaces</h3>
+                    <p>Coursera</p>
+                </div>
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h3>Introduction to Computer Vision and Image Processing</h3>
+                    <p>IBM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">06</span>
+                <h2 class="section-title">Education</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="education-grid">
+                <div class="edu-card" data-aos="fade-up">
+                    <div class="edu-year">2025</div>
+                    <h3>B.E. in Computer Science Engineering</h3>
+                    <h4>Chandigarh University, Mohali, Punjab</h4>
+                    <p class="edu-grade">CGPA: 7.56</p>
+                </div>
+                <div class="edu-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="edu-year">2021</div>
+                    <h3>Intermediate 12th (CBSE)</h3>
+                    <h4>Saraswati Vidya Mandir, Munger, Bihar</h4>
+                    <p class="edu-grade">Percentage: 67.2%</p>
+                </div>
+                <div class="edu-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="edu-year">2019</div>
+                    <h3>Matric 10th (CBSE)</h3>
+                    <h4>Saraswati Vidya Mandir, Munger, Bihar</h4>
+                    <p class="edu-grade">Percentage: 63.8%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">07</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <p class="contact-description">
+                    I'm currently looking for new opportunities in Machine Learning and AI research. 
+                    Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                </p>
+                <div class="contact-info">
+                    <a href="mailto:tejaswirajmgr@gmail.com" class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        <span>tejaswirajmgr@gmail.com</span>
+                    </a>
+                    <a href="tel:+919473219473" class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        <span>+91 9473219473</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/tejaswi-raj" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+                <a href="mailto:tejaswirajmgr@gmail.com" class="btn btn-primary btn-large">Say Hello</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Designed & Built by Tejaswi Raj</p>
+            <p class="footer-copyright">© 2025 All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
