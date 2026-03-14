@@ -185,4 +185,4 @@ projectCards.forEach((card) => {
 // ===== Console Easter Egg =====
 console.log("%c👋 Hello there!", "font-size: 24px; font-weight: bold; color: #64ffda;")
 console.log("%cInterested in my code? Check out my GitHub!", "font-size: 14px; color: #8892b0;")
-console.log("%chttps://github.com/tejaswiraj", "font-size: 14px; color: #64ffda;")
+console.log("%chttps://github.com/tejaswirajgit", "font-size: 14px; color: #64ffda;")
