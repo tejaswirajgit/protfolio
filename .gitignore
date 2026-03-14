@@ -25,3 +25,14 @@ notebooks/*.ipynb
 
 # Logs
 *.log
+
+# Notes / local docs
+*.txt
+
+# Certificates: ignore all by default, keep only files used by website
+Coursera Certificate/*
+!Coursera Certificate/certificate_links.csv
+!Coursera Certificate/IBM Introduction to Machine Learning.pdf
+!Coursera Certificate/Data Visualization with Tableau Project.pdf
+!Coursera Certificate/Natural Language Processing with Classification and Vector Spaces.pdf
+!Coursera Certificate/Introduction to Computer Vision and Image Processing.pdf

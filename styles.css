@@ -523,6 +523,29 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  margin-bottom: 16px;
+}
+
+.cert-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 8px 18px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-family: var(--font-mono);
+  font-weight: 500;
+  text-decoration: none;
+  transition: var(--transition);
+  margin-top: 4px;
+}
+
+.cert-btn:hover {
+  background-color: var(--accent-tint);
+  transform: translateY(-2px);
 }
 
 .tag {
@@ -698,6 +721,10 @@ section {
 .cert-card p {
   color: var(--text-secondary);
   font-size: 0.85rem;
+}
+
+.cert-card .cert-btn {
+  margin-top: 14px;
 }
 
 /* ===== Education Section ===== */
