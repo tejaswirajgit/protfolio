@@ -3,6 +3,24 @@ const navbar = document.getElementById("navbar")
 const navToggle = document.getElementById("nav-toggle")
 const navMenu = document.getElementById("nav-menu")
 const navLinks = document.querySelectorAll(".nav-link")
+const cursorGlow = document.getElementById("cursor-glow")
+
+// ===== Cursor Glow =====
+if (cursorGlow) {
+  const setGlowPosition = (x, y) => {
+    cursorGlow.style.left = `${x}px`
+    cursorGlow.style.top = `${y}px`
+  }
+
+  window.addEventListener("mousemove", (event) => {
+    setGlowPosition(event.clientX, event.clientY)
+    cursorGlow.classList.add("active")
+  })
+
+  window.addEventListener("mouseleave", () => {
+    cursorGlow.classList.remove("active")
+  })
+}
 
 // ===== Navbar Scroll Effect =====
 let lastScroll = 0
@@ -95,7 +113,7 @@ window.addEventListener("scroll", highlightNav)
 
 // ===== Typing Effect for Hero Section =====
 const heroTitle = document.querySelector(".hero-title")
-const titles = ["ML Research Engineer", "AI Enthusiast", "Problem Solver", "Data Scientist"]
+const titles = ["ML Research Engineer", "AI Enthusiast", "Problem Solver"]
 let titleIndex = 0
 let charIndex = 0
 let isDeleting = false
